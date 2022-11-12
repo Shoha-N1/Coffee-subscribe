@@ -101,6 +101,7 @@ p {
   line-height: 25px;
 }
 
+imagle
 /* SECTION-2 */
 
 .sidebar {
@@ -138,7 +139,7 @@ p {
   margin-top: 26px;
 }
 
-/* <!-- SECTION-5  --> */
+/* <!-- SECTION-3  --> */
 
 .aside__box {
   margin-left: 95px;
@@ -185,10 +186,10 @@ p {
 /* <!-- HARD SECTION --> */
 
 .hard {
-  margin: 400px;
+  margin: 400px 400px 400px 300px;
 }
 
-.field .checkbox-label {
+.hard__field .checkbox-label {
   font-family: "Fraunces";
   font-size: 21px;
   cursor: pointer;
@@ -203,14 +204,14 @@ p {
 
 
 
-.field {
+.hard__field {
  width: 300px;
  margin-top: 63px;
 }
 
 /* <!-- Continue --> */
 
-.green {
+.hard__box {
   display: flex;
 }
 
@@ -383,3 +384,17 @@ p {
     margin-top: 29px;
   }
   
+  .lolipop {
+    display: flex;
+  }
+
+  .imagle {
+    width: 25px;
+    height: 20px;
+    margin-left: -20px;
+    margin-top: 67px;
+    transform: rotate(180deg);
+  }
+
+
+ 
